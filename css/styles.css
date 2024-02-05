@@ -425,13 +425,12 @@ body {
   display: flex;
 }
 .footer-social-name {
-  display: inline-block;
+  font-family: Roboto;
   font-size: 16px;
+  color: var(--white-tx);
   font-weight: 500;
   line-height: calc(24 / 16);
-  color: var(--white-tx);
-  letter-spacing: 0.2em;
-  margin-bottom: 16px;
+  letter-spacing: 0.32px;
 }
 .footer-social-list {
   display: flex;
