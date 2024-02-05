@@ -101,6 +101,21 @@ body {
   color: var(--navy-blue);
   display: block;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-item {
+  position: relative;
+}
+
+.header-item-link:hover::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--presset-oceans);
+  border-radius: 2px;
 }
 .header-item-link:hover,
 .header-item-link:focus {
@@ -124,6 +139,7 @@ body {
   letter-spacing: 0.32px;
   display: block;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -402,7 +418,7 @@ body {
   display: flex;
 }
 .footer-social-name {
-  display: block;
+  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   line-height: calc(24 / 16);
@@ -424,8 +440,6 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--primary-iris);
-  width: 100%;
-  height: 100%;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
