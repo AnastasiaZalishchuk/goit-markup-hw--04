@@ -432,6 +432,9 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.32px;
 }
+.footer-social-icon {
+  fill: var(--light-cloud);
+}
 .footer-social-list {
   display: flex;
   align-items: center;
