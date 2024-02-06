@@ -75,8 +75,7 @@ body {
   align-items: center;
   flex-grow: 1;
 }
-.header-item {
-}
+
 .header-list {
   display: flex;
   align-items: center;
@@ -353,7 +352,7 @@ body {
   gap: 48px 24px;
 }
 .portfolio-item {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: calc((100% - 48px) / 3);
 }
 .portfolio-item:hover,
@@ -427,7 +426,7 @@ body {
 }
 .footer-container {
   display: flex;
-  align-items: start;
+  align-items: baseline;
 }
 .footer-wrapper {
   margin-right: 120px;
