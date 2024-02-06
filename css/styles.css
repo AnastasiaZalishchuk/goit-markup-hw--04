@@ -111,7 +111,7 @@ body {
   position: relative;
 }
 
-.header-item-link:hover::after {
+.current::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -121,8 +121,8 @@ body {
   background-color: var(--presset-oceans);
   border-radius: 2px;
 }
-.header-item-link:hover,
-.header-item-link:focus {
+.header-item-link.current:hover,
+.header-item-link.current:focus {
   color: var(--presset-oceans);
   cursor: pointer;
 }
@@ -426,10 +426,10 @@ body {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-wrapper {
   margin-right: 120px;
-  align-items: baseline;
 }
 
 .footer-logo {
