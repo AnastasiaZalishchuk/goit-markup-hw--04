@@ -376,11 +376,12 @@ body {
   margin-bottom: 72px;
 }
 .portfolio-cover-container {
-  position: relative;
   overflow: hidden;
 }
 .cover-wrapper {
-  position: absolute;
+  position: relative;
+}
+.cover-text {
   top: 0;
   padding: 40px 32px;
   background-color: var(--primary-iris);
@@ -388,12 +389,11 @@ body {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 100%;
   width: 100%;
-}
-.cover-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-cloud);
+  position: absolute;
 }
 
 .portfolio-bottom-container {
