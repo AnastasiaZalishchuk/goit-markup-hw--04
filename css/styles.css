@@ -98,8 +98,9 @@ body {
 }
 .header-item-link {
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px 0;
+  color: var(--navy-blue);
 }
 .header-item {
   font-size: 16px;
@@ -121,11 +122,12 @@ body {
   background-color: var(--presset-oceans);
   border-radius: 2px;
 }
-.header-item-link.current:hover,
-.header-item-link.current:focus {
+.header-item-link:hover,
+.header-item-link:focus {
   color: var(--presset-oceans);
   cursor: pointer;
 }
+
 .header-address {
   font-style: normal;
 }
